@@ -22,6 +22,7 @@ script:
 after_script:
   - ./node_modules/.bin/istanbul cover grunt -- -u tdd
   - ./node_modules/.bin/istanbul report cobertura --dir  shippable/codecoverage/
+  - invalid_command_that_fails
 
 after_success:
   - echo "after success"
