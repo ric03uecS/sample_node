@@ -17,12 +17,12 @@ before_script:
 # Running the tests with grunt
 script:
   - grunt
+  - hjgjgjgjhjhgjghgjh
 
 # Tell istanbul to generate a coverage report
 after_script:
   - ./node_modules/.bin/istanbul cover grunt -- -u tdd
   - ./node_modules/.bin/istanbul report cobertura --dir  shippable/codecoverage/
-  - hjgjgjgjhjhgjghgjh
 
 after_success:
   - echo "after success"
