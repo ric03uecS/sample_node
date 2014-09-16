@@ -9,8 +9,6 @@ node_js:
 env:
   - XUNIT_FILE=shippable/testresults/result.xml
 
-install:
-  - npm install --verbose
   
 # Create directories for test and coverage reports
 before_script:
