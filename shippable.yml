@@ -5,7 +5,7 @@ language: node_js
 node_js:
   - 0.10.31
   
-build_image: shippableimages/ubuntu1204_node:latest
+build_image: shipimg/ubuntu1204_node:latest
       
 # The path for Xunit to output test reports
 env:
