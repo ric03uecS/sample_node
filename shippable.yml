@@ -15,18 +15,21 @@ env:
 # Create directories for test and coverage reports
 before_script:
   - env
+  - ls -al
 
 #- mkdir -p shippable/testresults
 #- mkdir -p shippable/codecoverage
 
 # Running the tests with grunt
 script:
+  - ls -al
   - true
   
 # - grunt
 
 # Tell istanbul to generate a coverage report
 after_script:
+  - ls -al
   - echo '------------------after script ================'
   
 #- ./node_modules/.bin/istanbul cover grunt -- -u tdd
