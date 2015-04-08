@@ -22,7 +22,7 @@ before_script:
 # Running the tests with grunt
 script:
   - ls -al
-  - echo 'testresults' > shippable/testresults/testresultfile.csv
+  - echo 'testresults' > shippable/testresults/testresultfile.xml
   - echo 'coverageresults' > shippable/codecoverage/coverageresultfile.csv
   - true
   
