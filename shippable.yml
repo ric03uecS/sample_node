@@ -16,13 +16,14 @@ env:
 before_script:
   - env
   - ls -al
-
-#- mkdir -p shippable/testresults
-#- mkdir -p shippable/codecoverage
+  - mkdir -p shippable/testresults
+  - mkdir -p shippable/codecoverage
 
 # Running the tests with grunt
 script:
   - ls -al
+  - echo 'testresults' > shippable/testresults/testresultfile.txt
+  - echo 'coverageresults' > shippable/codecoverage/coverageresultfile.txt
   - true
   
 # - grunt
