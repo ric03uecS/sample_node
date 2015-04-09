@@ -35,6 +35,8 @@ after_script:
   - ls -al shippable/codecoverage
   - echo '------------------after script ================'
   
+after_archive:
+  - echo '+++++++++++++++++ AFTER ARCHIVE ++++++ '
 #- ./node_modules/.bin/istanbul cover grunt -- -u tdd
 # - ./node_modules/.bin/istanbul report cobertura --dir  shippable/codecoverage/
 
