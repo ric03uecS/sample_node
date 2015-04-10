@@ -44,3 +44,5 @@ after_archive:
 
 after_success:
   - echo "after success"
+
+cache: true
