@@ -5,6 +5,7 @@ language: node_js
 # Version number
 node_js:
   - 0.10.31
+  - 0.10.33
   
 build_image: shipimg/ubuntu1204_nodejs:latest
       
