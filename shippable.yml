@@ -35,7 +35,7 @@ after_script:
   - ls -al
   - ls -al shippable/testresults
   - ls -al shippable/codecoverage
-  - cp -r * ./shippable/buildoutput
+  - cp *.* ./shippable/buildoutput
   - echo '------------------after script ================'
   
 #  - ./node_modules/.bin/istanbul cover grunt -- -u tdd
