@@ -29,3 +29,6 @@ after_script:
 
 after_success:
   - echo "after success"
+
+after_archive:
+  - echo 'after archiveeee'
