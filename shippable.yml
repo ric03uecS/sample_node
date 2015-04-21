@@ -12,10 +12,8 @@ env:
 # Create directories for test and coverage reports
 before_script:
   - env
-  - sleep 10
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
-  - sleep 10
   - echo 'done before'
 
 # Running the tests with grunt
