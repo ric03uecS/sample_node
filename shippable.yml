@@ -29,3 +29,5 @@ after_success:
 
 after_archive:
   - echo 'after archiveeee'
+
+archive: true
