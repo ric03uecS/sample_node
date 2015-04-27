@@ -13,7 +13,7 @@ before_script:
   - env
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
-  - pip install awsebcli
+  - sudo pip install awsebcli
   - echo 'done before'
 
 # Running the tests with grunt
