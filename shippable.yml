@@ -32,3 +32,5 @@ after_archive:
   - echo 'after archiveeee'
 
 archive: true
+
+cache: true
