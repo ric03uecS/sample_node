@@ -7,6 +7,8 @@ node_js:
 env:
   - XUNIT_FILE=shippable/testresults/result.xml
 
+before_install:
+  - echo "running before install"
   
 # Create directories for test and coverage reports
 before_script:
