@@ -11,6 +11,11 @@ env:
 before_install:
   - echo "running before install"
   
+install:
+  - source ~/.nvm/nvm.sh && nvm install 0.12
+  - node --version
+  - npm install
+
 # Create directories for test and coverage reports
 before_script:
   - env
